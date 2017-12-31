@@ -1,6 +1,6 @@
 {
   "name": "react-object-inspector-standalone",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "A standalone UMD version of react-object-inspector for use in non-React projects",
   "main": "dist/object-inspector.min.js",
   "scripts": {
@@ -14,6 +14,9 @@
     "type": "git",
     "url": "https://github.com/wmhilton/react-object-inspector-standalone.git"
   },
+  "files": [
+    "dist/*"
+  ],
   "author": "William Hilton <wmhilton@gmail.com>",
   "license": "ISC",
   "bugs": {

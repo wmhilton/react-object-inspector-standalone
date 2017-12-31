@@ -1,24 +1,24 @@
 {
-  "name": "react-webpack-wrapper-example",
+  "name": "react-object-inspector-standalone",
   "version": "1.0.0",
-  "description": "An example of how to wrap react components for consumption in non-react websites using webpack",
-  "main": "wrapper.js",
+  "description": "A standalone UMD version of react-object-inspector for use in non-React projects",
+  "main": "dist/object-inspector.min.js",
   "scripts": {
     "example": "node server.js",
     "bundle-js-dev": "webpack --config ./webpack.dev.config.js",
     "bundle-js-prod": "webpack -p --config ./webpack.prod.config.js",
-    "bundle-js": "npm run test && npm run bundle-js-dev && npm run bundle-js-prod"
+    "build": "npm run test && npm run bundle-js-dev && npm run bundle-js-prod"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sevenleaps/react-webpack-wrapper-example.git"
+    "url": "git+https://github.com/wmhilton/react-object-inspector-standalone.git"
   },
-  "author": "Seven Leaps <sevenleaps@gmail.com> (https://medium.com/@sevenleaps)",
+  "author": "William Hilton <wmhilton@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sevenleaps/react-webpack-wrapper-example/issues"
+    "url": "https://github.com/xyc/react-inspector/issues"
   },
-  "homepage": "https://github.com/sevenleaps/react-webpack-wrapper-example#readme",
+  "homepage": "http://xyc.github.io/react-object-inspector/",
   "dependencies": {
     "babel-cli": "^6.5.0",
     "babel-core": "^6.5.0",
@@ -30,10 +30,9 @@
     "babel-preset-stage-1": "^6.5.0",
     "babel-preset-stage-2": "^6.5.0",
     "babel-runtime": "^6.5.0",
-    "chat-template": "0.0.21",
-    "express": "^4.13.4",
     "react": "^15.0.1",
     "react-dom": "^15.0.0",
+    "react-inspector": "^2.2.2",
     "webpack": "^1.13.0"
   }
 }

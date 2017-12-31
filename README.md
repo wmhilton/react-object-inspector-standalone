@@ -1,23 +1,42 @@
-# react-webpack-wrapper-example
+# react-object-inspector-standalone
 
-An example node project showing how you can use webpack and babel to convert a react component to a js file that can be consumed by non-react websites.
+Get the goodness of [react-object-inspector](http://xyc.github.io/react-inspector/) without actually dealing with React.
+Forked from [react-webpack-wrapper-example](https://github.com/sevenleaps/react-webpack-wrapper-example).
 
-The example provided is for [Chat-Template](https://github.com/sevenleaps/chat-template), a React component that enables quick prototyping of bot conversations
+## Example Usage
 
-### Usage
+See this [example live](https://wmhilton/github.io/react-object-inspector-standalone)
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Example Usage</title>
+</head>
+
+<body>
+    <p>Here is some fancy data:</p>
+    <div id="inspector"></div>
+
+    <script src="dist/object-inspector.min.js"></script>
+    <script>
+        ObjectInspector(document.getElementById('inspector'), {
+            here: {
+                is: ['some', 'fancy', 'data'],
+            }
+        })
+    </script>
+</body>
+
+</html>
+```
+
+## To build manually
 
 1. Clone the repo
-2. Run ```npm install```
-3. Run ```npm run bundle-js```
-4. Run the example  ```npm run example```
+2. Run `npm install`
+3. Run `npm run build`
+4. Run the example `npx serve`
 
-Step 3 will generate two files in the build folder. A chat-template.js and chat-template-min.js.
-
-See [index.html](https://github.com/sevenleaps/react-webpack-wrapper-example/blob/master/index.html) for an example how these files are consumed.
-
-### Adapting for a different component
-
-1. Replace references to chat-template and change the method name in wrapper.js
-2. Update method name and the output file names in the two webpack config files.
-3. Update index.html
-3. Run the usage steps.
+Step 3 will generate two files in the dist folder. A object-inspector.js and object-inspector.min.js.

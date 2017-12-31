@@ -1,18 +1,18 @@
 module.exports = {
-  entry:  './wrapper.js',
+  entry: './wrapper.js',
   output: {
-      libraryTarget: 'var',
-      library: 'showChatTemplate',
-      path:     'builds',
-      filename: 'chat-template.js',
+    libraryTarget: 'var',
+    library: 'ObjectInspector',
+    path: 'dist',
+    filename: 'object-inspector.js'
   },
   module: {
-      loaders: [
-          {
-              test:   /\.js/,
-              loader: 'babel',
-              include: __dirname,
-          }
-      ],
-  },
-};
+    loaders: [
+      {
+        test: /\.js/,
+        loader: 'babel',
+        include: __dirname
+      }
+    ]
+  }
+}

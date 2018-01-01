@@ -23,7 +23,7 @@
     "url": "https://github.com/xyc/react-inspector/issues"
   },
   "homepage": "http://xyc.github.io/react-object-inspector/",
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.5.0",
     "babel-core": "^6.5.0",
     "babel-loader": "^6.2.4",
@@ -37,9 +37,7 @@
     "react": "^15.0.1",
     "react-dom": "^15.0.0",
     "react-inspector": "^2.2.2",
+    "semantic-release": "^11.0.2",
     "webpack": "^1.13.0"
-  },
-  "devDependencies": {
-    "semantic-release": "^11.0.2"
   }
 }

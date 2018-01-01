@@ -8,13 +8,6 @@ Forked from [react-webpack-wrapper-example](https://github.com/sevenleaps/react-
 See this [example live](https://wmhilton.github.io/react-object-inspector-standalone)
 
 ```html
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>Example Usage</title>
-</head>
-
 <body>
   <p>Here is some fancy data:</p>
   <div id="inspector"></div>
@@ -28,8 +21,6 @@ See this [example live](https://wmhilton.github.io/react-object-inspector-standa
     })
   </script>
 </body>
-
-</html>
 ```
 
 ## To build manually

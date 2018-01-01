@@ -5,28 +5,28 @@ Forked from [react-webpack-wrapper-example](https://github.com/sevenleaps/react-
 
 ## Example Usage
 
-See this [example live](https://wmhilton/github.io/react-object-inspector-standalone)
+See this [example live](https://wmhilton.github.io/react-object-inspector-standalone)
 
 ```html
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>Example Usage</title>
+  <title>Example Usage</title>
 </head>
 
 <body>
-    <p>Here is some fancy data:</p>
-    <div id="inspector"></div>
+  <p>Here is some fancy data:</p>
+  <div id="inspector"></div>
 
-    <script src="dist/object-inspector.min.js"></script>
-    <script>
-        ObjectInspector(document.getElementById('inspector'), {
-            here: {
-                is: ['some', 'fancy', 'data'],
-            }
-        })
-    </script>
+  <script src="https://unpkg.com/react-object-inspector-standalone"></script>
+  <script>
+    ObjectInspector(document.getElementById('inspector'), {
+      here: {
+        is: ['some', 'fancy', 'data'],
+      }
+    })
+  </script>
 </body>
 
 </html>

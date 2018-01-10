@@ -23,5 +23,11 @@ module.exports = {
         NODE_ENV: JSON.stringify('production')
       }
     })
-  ]
+  ],
+  resolve: {
+    alias: {
+      react: 'preact-compat',
+      'react-dom': 'preact-compat'
+    }
+  }
 }

@@ -14,5 +14,11 @@ module.exports = {
         include: __dirname
       }
     ]
+  },
+  resolve: {
+    alias: {
+      react: 'preact-compat',
+      'react-dom': 'preact-compat'
+    }
   }
 }

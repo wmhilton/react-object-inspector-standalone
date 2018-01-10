@@ -34,13 +34,11 @@
     "babel-preset-stage-1": "^6.5.0",
     "babel-preset-stage-2": "^6.5.0",
     "babel-runtime": "^6.5.0",
-    "react": "^15.0.1",
-    "react-dom": "^15.0.0",
+    "preact": "^8.2.7",
+    "preact-compat": "^3.17.0",
     "react-inspector": "^2.2.2",
     "semantic-release": "^11.0.2",
+    "uglifyjs-webpack-plugin": "^1.1.6",
     "webpack": "^1.13.0"
-  },
-  "dependencies": {
-    "react-shadow-dom-retarget-events": "^1.0.8"
   }
 }

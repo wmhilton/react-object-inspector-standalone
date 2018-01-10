@@ -1,6 +1,6 @@
 {
   "name": "react-object-inspector-standalone",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A standalone UMD version of react-object-inspector for use in non-React projects",
   "main": "dist/object-inspector.min.js",
   "scripts": {

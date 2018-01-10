@@ -39,5 +39,8 @@
     "react-inspector": "^2.2.2",
     "semantic-release": "^11.0.2",
     "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "react-shadow-dom-retarget-events": "^1.0.8"
   }
 }
